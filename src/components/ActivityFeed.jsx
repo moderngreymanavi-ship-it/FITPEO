@@ -8,8 +8,8 @@ function ActivityFeed() {
       <div className="grid grid-cols-7 gap-2">
         {days.map(day => (
           <div key={day} className="flex flex-col items-center">
-            <div className="w-6 h-24 bg-blue-100 rounded">
-              <div className="w-full bg-blue-500 rounded" style={{ height: `${Math.random() * 100}%` }}></div>
+            <div className="w-6 h-24 bg-green-200 rounded">
+              <div className="w-full bg-green-800 rounded" style={{ height: `${Math.random() * 100}%` }}></div>
             </div>
             <div className="text-xs mt-1 text-gray-500">{day}</div>
           </div>
