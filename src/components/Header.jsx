@@ -4,7 +4,7 @@ function Header() {
   return (
     <header className="p-4 bg-white shadow flex justify-between items-center">
       <h1 className="text-xl font-semibold text-gray-700">
-        Healthcare Dashboard
+        Healthcare Dashboard of NK
       </h1>
 
       <div className="relative">
