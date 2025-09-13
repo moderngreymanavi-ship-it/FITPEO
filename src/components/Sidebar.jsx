@@ -3,7 +3,7 @@ import { navLinks } from '../data/navLinks';
 
 function Sidebar() {
   return (
-    <aside className="w-64 bg-white shadow p-4 space-y-4">
+    <aside className="w-64 bg-zinc-300 shadow p-4 space-y-4">
       <div className="text-2xl font-bold text-blue-600 mb-6">Health<span className="text-gray-700">care.</span></div>
       <nav className="space-y-2">
         {navLinks.map(link => (
